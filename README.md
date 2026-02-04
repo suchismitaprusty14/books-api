@@ -9,6 +9,7 @@ Express.js
 MongoDB (Local or MongoDB Atlas)
 Mongoose
 dotenv
+=============
 data model-->
 {
   "name": "string (required)",
@@ -16,10 +17,15 @@ data model-->
   "author": "string (required)",
   "publishDate": "ISO date"
 }
+
+===
 books-api/
-src/app.js
+src/app.js 
+
 src/config/db.js
+
 src/models/Book.js
+
 src/routes/books.js
 
  seed.js
