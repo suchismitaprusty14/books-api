@@ -9,7 +9,7 @@ Express.js
 MongoDB (Local or MongoDB Atlas)
 Mongoose
 dotenv
-=============
+
 data model-->
 {
   "name": "string (required)",
@@ -35,6 +35,17 @@ GET /api/books?author=Martin%20Fowler
 GET /api/books?search=Design
 GET /api/books?from=2000-01-01&to=2025-12-31
 GET /api/books?page=1&limit=10&sortBy=publishDate&order=desc
+1️⃣ Clone the repository
+git clone https://github.com/suchismitaprusty14/books-api.git
+cd books-api
+2️⃣ Install dependencies
+npm install
+🌱 Seed the Database
+ sample books into MongoDB Atlas:
+node seed.js
+Run the Server=====>
+npm start
+
 
 .env
  package.json
