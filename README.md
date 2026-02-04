@@ -9,3 +9,19 @@ Express.js
 MongoDB (Local or MongoDB Atlas)
 Mongoose
 dotenv
+data model-->
+{
+  "name": "string (required)",
+  "description": "string (required, ~2000 chars)",
+  "author": "string (required)",
+  "publishDate": "ISO date"
+}
+books-api/
+src/app.js
+src/config/db.js
+src/models/Book.js
+src/routes/books.js
+
+ seed.js
+.env
+ package.json
