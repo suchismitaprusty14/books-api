@@ -29,5 +29,12 @@ src/models/Book.js
 src/routes/books.js
 
  seed.js
+ reqest====
+ GET /api/books
+GET /api/books?author=Martin%20Fowler
+GET /api/books?search=Design
+GET /api/books?from=2000-01-01&to=2025-12-31
+GET /api/books?page=1&limit=10&sortBy=publishDate&order=desc
+
 .env
  package.json
